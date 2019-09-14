@@ -11,7 +11,7 @@ Requirements
     1. Arduino.h
     2. WiFi.h
     3. WebSocketsClient.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-    4.ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+    4. ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
     5. StreamString.h
 3. ESP32 boards (I'll update this list after achieving success with other boards)
    1. WEMOS LOLIN32
