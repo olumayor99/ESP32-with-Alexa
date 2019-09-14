@@ -8,13 +8,13 @@ I am not a guru, I'm a total beginner, but I'm very sure this code works pretty 
 Requirements
 1. Arduino IDE
 2. Required libraries
-  -Arduino.h
-  -WiFi.h
-  -WebSocketsClient.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-  -ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-  -StreamString.h
+  1. Arduino.h
+  2. WiFi.h
+  3. WebSocketsClient.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+  4. ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+  5. StreamString.h
 3. ESP32 boards (I'll update this list after achieving success with other boards)
-   -WEMOS LOLIN32
+   1. WEMOS LOLIN32
    
 Notes
 I initially had issues with the code initially, in the sense that, once it loses connection with the WiFi signal, it didn't reconnect, it just kept displaying "Web Service disconnected from sinric.com!". I sorted this out by calling the conn() function which was where I wrote the WiFi connection code.
