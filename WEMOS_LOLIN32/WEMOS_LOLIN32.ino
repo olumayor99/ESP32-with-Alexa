@@ -8,13 +8,13 @@ WebSocketsClient webSocket;
 WiFiClient client;
 
 // Wifi details
-const char* WIFI_SSID = "b3c0b6";
-const char* WIFI_PASS = "330166541";
+const char* WIFI_SSID = "YOUR WIFI SSID";
+const char* WIFI_PASS = "YOUR WIFI PASSWORD";
 
-#define MyApiKey "d458754a-6470-45fe-acb8-ca9028f500b0" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
+#define MyApiKey "YOUR API KEY" // TODO: Change to your sinric API Key. Your API Key is displayed on sinric.com dashboard
 #define HEARTBEAT_INTERVAL 300000 // 5 Minutes 
 
-// Relay pins
+// Relay pins 
 #define relayPin_1 16
 #define relayPin_2 17
 #define relayPin_3 18
@@ -58,56 +58,56 @@ void conn() {
 
 // Switch device on
 void turnOff(String deviceId) {
-  if (deviceId == "5d7d0ebbf1dce8012dfee6a6") // Device ID of first device
+  if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of first device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_1, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0ec9f1dce8012dfee6ae") // Device ID of second device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of second device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_2, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0ed2f1dce8012dfee6b3") // Device ID of third device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of third device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_3, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0ee4f1dce8012dfee6b8") // Device ID of fourth device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of fourth device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_4, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0eeef1dce8012dfee6bd") // Device ID of fifth device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of fifth device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_5, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0ef6f1dce8012dfee6c2") // Device ID of sixth device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of sixth device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_6, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0f00f1dce8012dfee6c7") // Device ID of seventh device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of seventh device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
     
      digitalWrite(relayPin_7, HIGH); // turn on relay with voltage HIGH
   }
-  else if (deviceId == "5d7d0f09f1dce8012dfee6cc") // Device ID of eight device
+  else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of eight device
   {  
     Serial.print("Turn off device id: ");
     Serial.println(deviceId);
@@ -122,56 +122,56 @@ void turnOff(String deviceId) {
 
 // Switch device on
 void turnOn(String deviceId) {
-   if (deviceId == "5d7d0ebbf1dce8012dfee6a6") // Device ID of first device
+   if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of first device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_1, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0ec9f1dce8012dfee6ae") // Device ID of second device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of second device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_2, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0ed2f1dce8012dfee6b3") // Device ID of third device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of third device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_3, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0ee4f1dce8012dfee6b8") // Device ID of fourth device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of fourth device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_4, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0eeef1dce8012dfee6bd") // Device ID of fifth device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of fifth device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_5, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0ef6f1dce8012dfee6c2") // Device ID of sixth device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of sixth device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_6, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0f00f1dce8012dfee6c7") // Device ID of seventh device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of seventh device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
      
      digitalWrite(relayPin_7, LOW);  // turn off relay with voltage LOW
    }
-   else if (deviceId == "5d7d0f09f1dce8012dfee6cc") // Device ID of eight device
+   else if (deviceId == "XXXXXXXXXXXXXXX") // Device ID of eight device
    {  
      Serial.print("Turn on Device ID: ");
      Serial.println(deviceId);
