@@ -8,11 +8,11 @@ I am not a guru, I'm a total beginner, but I'm very sure this code works pretty 
 Requirements
 1. Arduino IDE
 2. Required libraries
-  i. Arduino.h
-  ii. WiFi.h
-  iii. WebSocketsClient.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-  iv. ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
-  v. StreamString.h
+    1. Arduino.h
+    2. WiFi.h
+    3. WebSocketsClient.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+    4.ArduinoJson.h Installation guide here---> https://github.com/kakopappa/sinric/wiki/How-to-add-dependency-libraries
+    5. StreamString.h
 3. ESP32 boards (I'll update this list after achieving success with other boards)
    1. WEMOS LOLIN32
    
